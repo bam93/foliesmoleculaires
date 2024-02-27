@@ -2,6 +2,10 @@
  *  Generic stuff
  *  ------------------------------------------ */
 
+/* to generate css, do
+ *   sass lazyblorg.scss ~/REP/lazyblorg/tmp/lazyblorg/blog/css/lazyblorg.css
+ */
+
 /* http://html-color-codes.info/ */
 /* http://sass-lang.com/guide */
 /* http://www.w3schools.com/cssref/ */
@@ -12,8 +16,15 @@ $lightgray: #e0e0e0;
 $gray: #7e7e7e; /* replacing #555 */
 $darkgray: #252525;
 
-$darkblue: #2222ff;
-$darkaquablue: #004977;
+/*
+ * $darkblue: #2222ff;
+ * $darkaquablue: #004977;
+ */
+
+/* currently the tag color */
+$darkblue: #888822;
+
+$darkaquablue: #774900;
 
 $lightyellow: #fffff0;
 
